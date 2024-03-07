@@ -1,0 +1,1 @@
+import {companyAPI as CompanyAPI} from './api/company.api'
