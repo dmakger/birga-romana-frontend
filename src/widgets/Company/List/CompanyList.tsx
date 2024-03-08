@@ -1,13 +1,15 @@
 "use client"
 
-import { companyAPI } from "@/entities/Company/api/company.api";
 import { useCompanyAll } from "@/entities/Company/hooks/useCompanyAll"
+import CompanyHList from "@/entities/Company/ui/horizontal/list/CompanyHList";
+
+import cl from './_CompanyList.module.scss'
 
 export default function CompanyList() {
     const { data: companyList, setData: setCompanyList } = useCompanyAll()
-    console.log(companyList);
 
-    return (
-        <div>CompanyList</div>
-    )
+    if (!companyList)
+        return null
+    return <CompanyHList companyList={companyList} className={cl.block} />
+    
 }
