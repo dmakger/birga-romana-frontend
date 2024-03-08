@@ -2,7 +2,15 @@
     max-width: 1120px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    transition: all .2s;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: var(--gray-1);
+    }
 
     .left {
         display: flex;
@@ -20,7 +28,8 @@
     }
 
     .price {
-
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 
 }

@@ -1,6 +1,6 @@
 "use client"
 
-import { useCompanyAll } from "@/entities/Company/hooks/useCompanyAll"
+import { useCompanyAll } from "@/entities/Company/hooks/useCompany.hooks"
 import CompanyHList from "@/entities/Company/ui/horizontal/list/CompanyHList";
 
 import cl from './_CompanyList.module.scss'

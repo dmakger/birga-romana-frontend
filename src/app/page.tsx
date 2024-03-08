@@ -1,11 +1,10 @@
-import cl from "./_page.module.scss";
+import BaseLayout from "@/widgets/Layout/Base/BaseLayout";
 import CompanyList from "@/widgets/Company/List/CompanyList";
 
 export default function Home() {
   return (
-    <main className={cl.main}>
-      <h1 className={cl.title}>Каталог акций</h1>
+    <BaseLayout title="Каталог акций">
       <CompanyList />
-    </main>
+    </BaseLayout>
   );
 }
