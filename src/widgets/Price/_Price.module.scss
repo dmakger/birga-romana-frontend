@@ -2,4 +2,9 @@
     padding: 20px 40px;
     border-radius: var(--border-radius);
     background-color: var(--background-2);
+
+    .price {
+        font-weight: 700;
+        font-size: 2rem !important;
+    }
 }

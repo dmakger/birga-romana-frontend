@@ -10,5 +10,5 @@ export function useCompanyAll() {
 
 
 export function useCompanyStocks(companyIds: number[]) {
-	return useAPI<IStock[]>(['companyList'], () => companyAPI.stocks(companyIds))
+	return useAPI<IStock[]>(['stockList'], () => companyAPI.stocks(companyIds))
 }
