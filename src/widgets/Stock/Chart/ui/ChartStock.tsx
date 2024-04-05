@@ -10,7 +10,7 @@ interface TaskByQuarterProps {
 }
 
 const ChartStock = ({stocks}: TaskByQuarterProps) => {
-    const dataKey = "Количество задач"
+    const dataKey = "Изменения акций"
     const title = `Стоимость акций «${stocks[0].company.title}»`
 
     // STATE

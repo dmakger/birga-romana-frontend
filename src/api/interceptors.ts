@@ -1,7 +1,7 @@
 import axios, {CreateAxiosDefaults} from 'axios'
 
 const options: CreateAxiosDefaults = {
-    baseURL: "http://localhost:8000/api",
+    baseURL: "http://api.birgaromana.ru/api",
     headers: {
         'Content-Type': 'application/json',
     },
